@@ -4,20 +4,6 @@
   <b>Backend &amp; AI-Agent Engineer</b> &nbsp;·&nbsp; I build agent runtimes that survive <code>kill -9</code>.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
-  <img src="https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=google&logoColor=white" alt="gRPC"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/Gin-008ECF?style=flat-square&logo=go&logoColor=white" alt="Gin"/>
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-</p>
-
 ---
 
 ### 🧭 About
@@ -35,13 +21,6 @@
 | [**mini-agent**](https://github.com/Jepson-Wang/mini-agent) | Python · gRPC · SQLite WAL | `SIGKILL` it mid-tool-call, `--resume`, and it carries on — no lost turns, no tool run twice |
 | [**mini_agent_backend**](https://github.com/Jepson-Wang/mini_agent_backend) | Go · Gin · GORM · PostgreSQL | Task control plane with CAS state transitions, a circuit breaker on the agent link, and a reaper that finalizes stuck tasks without re-running them |
 | [**question_set_program**](https://github.com/Jepson-Wang/question_set_program) | FastAPI · LangGraph · Chroma | ReAct tutoring agent with hot-reloadable `SKILL.md` packs and 3-tier memory (Redis / MySQL / vector) |
-
-### 🤝 Open-Source Contributions
-
-| Project | What I shipped |
-|:--|:--|
-| [**ethanhq/cc-fleet**](https://github.com/ethanhq/cc-fleet) <br/><sub>Go · ★ 185 · runs Claude Code subagents on any model</sub> | **3 merged PRs** — exact proxy-port matching for workers ([#145](https://github.com/ethanhq/cc-fleet/pull/145)), version resolution that works across PowerShell editions ([#56](https://github.com/ethanhq/cc-fleet/pull/56)), ASCII installer banners to fix cp936 mojibake ([#59](https://github.com/ethanhq/cc-fleet/pull/59)) · putting the Claude worker behind an `Engine` interface — in review ([#146](https://github.com/ethanhq/cc-fleet/pull/146)) |
-| [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) <br/><sub>Python · ★ 257k</sub> | A trace-only compression summary now fails instead of silently becoming the checkpoint — in review ([#139989](https://github.com/NousResearch/hermes-agent/pull/139989)) |
 
 <details>
 <summary><b>How Mini-Agent fits together</b> (click to expand)</summary>
@@ -65,6 +44,45 @@ flowchart LR
 
 </details>
 
+### 🤝 Open-Source Contributions
+
+| Project | What I shipped |
+|:--|:--|
+| [**ethanhq/cc-fleet**](https://github.com/ethanhq/cc-fleet) <br/><sub>Go · ★ 185 · runs Claude Code subagents on any model</sub> | **3 merged PRs** — exact proxy-port matching for workers ([#145](https://github.com/ethanhq/cc-fleet/pull/145)), version resolution that works across PowerShell editions ([#56](https://github.com/ethanhq/cc-fleet/pull/56)), ASCII installer banners to fix cp936 mojibake ([#59](https://github.com/ethanhq/cc-fleet/pull/59)) · putting the Claude worker behind an `Engine` interface — in review ([#146](https://github.com/ethanhq/cc-fleet/pull/146)) |
+| [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) <br/><sub>Python · ★ 257k</sub> | A trace-only compression summary now fails instead of silently becoming the checkpoint — in review ([#139989](https://github.com/NousResearch/hermes-agent/pull/139989)) |
+
+### 🧰 Tech Stack
+
+**Languages**<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack/languages-dark.svg">
+  <img src="assets/stack/languages-light.svg" alt="Go, Python, Java" height="52">
+</picture>
+
+**Backend &amp; AI**<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack/backend-dark.svg">
+  <img src="assets/stack/backend-light.svg" alt="FastAPI, Gin, gRPC, LangChain / LangGraph" height="52">
+</picture>
+
+**Databases**<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack/data-dark.svg">
+  <img src="assets/stack/data-light.svg" alt="PostgreSQL, MySQL, Redis, SQLite" height="52">
+</picture>
+
+**Tooling**<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack/tools-dark.svg">
+  <img src="assets/stack/tools-light.svg" alt="Docker, Linux, Git, GitHub Actions, pytest" height="52">
+</picture>
+
+**Currently learning**<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack/learning-dark.svg">
+  <img src="assets/stack/learning-light.svg" alt="Hadoop, Hive, Celery" height="52">
+</picture>
+
 ### 🌍 Latest Pull Requests
 
 <!-- OSS:START -->
@@ -84,4 +102,4 @@ flowchart LR
   </picture>
 </p>
 
-<p align="center"><sub>Stats and activity refresh daily via GitHub Actions — <a href="scripts/update_profile.py">built from scratch</a>, no third-party widgets.</sub></p>
+<p align="center"><sub>Stats and activity refresh daily via GitHub Actions — <a href="scripts/update_profile.py">built from scratch</a>, no third-party widgets. Icons: <a href="https://github.com/tandpfun/skill-icons">skill-icons</a> · <a href="https://simpleicons.org">simple-icons</a>.</sub></p>
