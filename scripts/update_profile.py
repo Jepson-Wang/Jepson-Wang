@@ -23,7 +23,7 @@ ASSETS = ROOT / "assets"
 
 # Languages that describe tooling rather than what I write.
 EXCLUDED_LANGS = {"HTML", "CSS", "Makefile", "Dockerfile", "Shell", "Batchfile", "Jupyter Notebook"}
-MAX_PRS = 50
+MAX_PRS = 5
 STAR_THRESHOLD = 50
 
 QUERY = """
@@ -52,7 +52,7 @@ query($login: String!, $prQuery: String!) {
       }
     }
   }
-  search(query: $prQuery, type: ISSUE, first: 50) {
+  search(query: $prQuery, type: ISSUE, first: 20) {
     nodes {
       ... on PullRequest {
         title url number state merged
@@ -220,22 +220,17 @@ def render_card(s: dict, theme: str) -> str:
 # --------------------------------------------------------------------------- readme
 
 def render_oss(prs: list[dict]) -> str:
-    """One line per repository: counts, then PR numbers with their titles as hover text."""
-    groups: dict[str, dict] = {}
-    for pr in prs:  # search order = most recently updated first
-        repo = pr["repository"]
-        g = groups.setdefault(repo["nameWithOwner"], {"stars": repo["stargazerCount"], "prs": []})
-        g["prs"].append(pr)
     lines = []
-    for name, g in groups.items():
-        merged = sum(1 for pr in g["prs"] if pr["merged"])
-        open_ = len(g["prs"]) - merged
-        counts = " · ".join(part for part in (
-            f"{merged} merged" if merged else "", f"{open_} in review" if open_ else "") if part)
-        stars = f" ★ {compact(g['stars'])}" if g["stars"] >= 100 else ""
-        links = " ".join(
-            f'[#{pr["number"]}]({pr["url"]} "{pr["title"].replace(chr(34), chr(39))}")' for pr in g["prs"])
-        lines.append(f"- **{name}**{stars} — {counts}: {links}")
+    for pr in prs:
+        repo = pr["repository"]
+        stars = f" ★ {compact(repo['stargazerCount'])}" if repo["stargazerCount"] >= 100 else ""
+        if pr["merged"]:
+            badge, status = "🟣", "merged"
+        else:
+            badge, status = "🟡", "_in review_"
+        title = pr["title"].replace("[", "\\[").replace("]", "\\]")
+        lines.append(f"- {badge} **{repo['nameWithOwner']}**{stars} — "
+                     f"[{title}]({pr['url']}) (#{pr['number']}) · {status}")
     return "\n".join(lines)
 
 
