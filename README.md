@@ -36,6 +36,13 @@
 | [**mini_agent_backend**](https://github.com/Jepson-Wang/mini_agent_backend) | Go · Gin · GORM · PostgreSQL | Task control plane with CAS state transitions, a circuit breaker on the agent link, and a reaper that finalizes stuck tasks without re-running them |
 | [**question_set_program**](https://github.com/Jepson-Wang/question_set_program) | FastAPI · LangGraph · Chroma | ReAct tutoring agent with hot-reloadable `SKILL.md` packs and 3-tier memory (Redis / MySQL / vector) |
 
+### 🤝 Open-Source Contributions
+
+| Project | What I shipped |
+|:--|:--|
+| [**ethanhq/cc-fleet**](https://github.com/ethanhq/cc-fleet) <br/><sub>Go · ★ 185 · runs Claude Code subagents on any model</sub> | **3 merged PRs** — exact proxy-port matching for workers ([#145](https://github.com/ethanhq/cc-fleet/pull/145)), version resolution that works across PowerShell editions ([#56](https://github.com/ethanhq/cc-fleet/pull/56)), ASCII installer banners to fix cp936 mojibake ([#59](https://github.com/ethanhq/cc-fleet/pull/59)) · putting the Claude worker behind an `Engine` interface — in review ([#146](https://github.com/ethanhq/cc-fleet/pull/146)) |
+| [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) <br/><sub>Python · ★ 257k</sub> | A trace-only compression summary now fails instead of silently becoming the checkpoint — in review ([#139989](https://github.com/NousResearch/hermes-agent/pull/139989)) |
+
 <details>
 <summary><b>How Mini-Agent fits together</b> (click to expand)</summary>
 <br/>
@@ -58,7 +65,7 @@ flowchart LR
 
 </details>
 
-### 🌍 Recent Open-Source Activity
+### 🌍 Latest Pull Requests
 
 <!-- OSS:START -->
 - 🟡 **ethanhq/cc-fleet** ★ 185 — [refactor(subagent): put the claude worker behind an Engine interface; resolve the codex binary](https://github.com/ethanhq/cc-fleet/pull/146) (#146) · _in review_
