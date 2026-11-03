@@ -68,11 +68,11 @@ flowchart LR
 ### 🌍 Latest Pull Requests
 
 <!-- OSS:START -->
-- 🟡 **ethanhq/cc-fleet** ★ 185 — [feat(subagent): prepare the codex engine's CODEX_HOME](https://github.com/ethanhq/cc-fleet/pull/149) (#149) · _in review_
-- 🟡 **ethanhq/cc-fleet** ★ 185 — [refactor(subagent): put the claude worker behind an Engine interface; resolve the codex binary](https://github.com/ethanhq/cc-fleet/pull/146) (#146) · _in review_
-- 🟣 **ethanhq/cc-fleet** ★ 185 — [fix(codexproxy): match a worker's proxy port exactly, not as a substring](https://github.com/ethanhq/cc-fleet/pull/145) (#145) · merged
-- 🟡 **NousResearch/hermes-agent** ★ 259.6k — [fix(compression): a trace-only summary fails instead of becoming the checkpoint](https://github.com/NousResearch/hermes-agent/pull/139989) (#139989) · _in review_
-- 🟣 **ethanhq/cc-fleet** ★ 185 — [fix: keep install.ps1 banners ASCII to avoid cp936 mojibake](https://github.com/ethanhq/cc-fleet/pull/59) (#59) · merged
+- 🟡 **ethanhq/cc-fleet** ★ 187 — [feat(subagent): prepare the codex engine's CODEX_HOME](https://github.com/ethanhq/cc-fleet/pull/149) (#149) · _in review_
+- 🟡 **ethanhq/cc-fleet** ★ 187 — [refactor(subagent): put the claude worker behind an Engine interface; resolve the codex binary](https://github.com/ethanhq/cc-fleet/pull/146) (#146) · _in review_
+- 🟣 **ethanhq/cc-fleet** ★ 187 — [fix(codexproxy): match a worker's proxy port exactly, not as a substring](https://github.com/ethanhq/cc-fleet/pull/145) (#145) · merged
+- 🟡 **NousResearch/hermes-agent** ★ 260k — [fix(compression): a trace-only summary fails instead of becoming the checkpoint](https://github.com/NousResearch/hermes-agent/pull/139989) (#139989) · _in review_
+- 🟣 **ethanhq/cc-fleet** ★ 187 — [fix: keep install.ps1 banners ASCII to avoid cp936 mojibake](https://github.com/ethanhq/cc-fleet/pull/59) (#59) · merged
 <!-- OSS:END -->
 
 ### 📊 Stats
