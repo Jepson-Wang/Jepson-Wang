@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  📝 Blog: <a href="http://jepsonblog.vip/">Jepson</a> &nbsp;·&nbsp; 📧 <a href="mailto:jarwood369@gmail.com">jarwood369@gmail.com</a>
+  📝 Blog: <a href="http://jepsonblog.vip/">Jepson</a> &nbsp;·&nbsp; 📧 <a href="mailto:jarwood369@gmail.com">jarwood369@gmail.com</a> &nbsp;·&nbsp; 𝕏 <a href="https://x.com/Jepsonr339">@Jepsonr339</a>
 </p>
 
 <p align="center">
