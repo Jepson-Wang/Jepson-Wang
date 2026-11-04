@@ -8,19 +8,19 @@ text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial
 </style>
 <rect x="0.5" y="0.5" width="599" height="229" rx="10" fill="#0d1117" stroke="#30363d"/>
 <text x="24" y="34" class="h muted">LAST 12 MONTHS</text>
-<g><text x="24" y="72" class="num">354</text><text x="24" y="89" class="label muted">CONTRIBUTIONS</text></g>
-<g><text x="164" y="72" class="num">298</text><text x="164" y="89" class="label muted">COMMITS</text></g>
-<g><text x="24" y="124" class="num">41</text><text x="24" y="141" class="label muted">PULL REQUESTS</text></g>
+<g><text x="24" y="72" class="num">362</text><text x="24" y="89" class="label muted">CONTRIBUTIONS</text></g>
+<g><text x="164" y="72" class="num">305</text><text x="164" y="89" class="label muted">COMMITS</text></g>
+<g><text x="24" y="124" class="num">42</text><text x="24" y="141" class="label muted">PULL REQUESTS</text></g>
 <g><text x="164" y="124" class="num">4</text><text x="164" y="141" class="label muted">REPOS CONTRIBUTED</text></g>
 <text x="330" y="34" class="h muted">TOP LANGUAGES</text>
 <clipPath id="lb"><rect x="330" y="50" width="246" height="8" rx="4"/></clipPath>
 <rect x="330" y="50" width="246" height="8" rx="4" fill="#21262d"/>
-<rect x="330.00" y="50" width="155.32" height="8" fill="#3572A5" clip-path="url(#lb)"/>
-<rect x="485.32" y="50" width="89.28" height="8" fill="#00ADD8" clip-path="url(#lb)"/>
-<rect x="574.60" y="50" width="1.40" height="8" fill="#3178c6" clip-path="url(#lb)"/>
-<circle cx="335" cy="78" r="5" fill="#3572A5"/><text x="346" y="82" font-size="12">Python <tspan class="muted">63.1%</tspan></text>
-<circle cx="463" cy="78" r="5" fill="#00ADD8"/><text x="474" y="82" font-size="12">Go <tspan class="muted">36.3%</tspan></text>
-<circle cx="335" cy="100" r="5" fill="#3178c6"/><text x="346" y="104" font-size="12">TypeScript <tspan class="muted">0.6%</tspan></text>
+<rect x="330.00" y="50" width="178.75" height="8" fill="#3572A5" clip-path="url(#lb)"/>
+<rect x="508.75" y="50" width="66.21" height="8" fill="#00ADD8" clip-path="url(#lb)"/>
+<rect x="574.96" y="50" width="1.04" height="8" fill="#3178c6" clip-path="url(#lb)"/>
+<circle cx="335" cy="78" r="5" fill="#3572A5"/><text x="346" y="82" font-size="12">Python <tspan class="muted">72.7%</tspan></text>
+<circle cx="463" cy="78" r="5" fill="#00ADD8"/><text x="474" y="82" font-size="12">Go <tspan class="muted">26.9%</tspan></text>
+<circle cx="335" cy="100" r="5" fill="#3178c6"/><text x="346" y="104" font-size="12">TypeScript <tspan class="muted">0.4%</tspan></text>
 <text x="24" y="170" class="h muted">WEEKLY ACTIVITY</text>
 <rect x="24.00" y="212.00" width="8.65" height="2.00" rx="1.5" fill="#161b22" fill-opacity="1.00"><title>0 contributions</title></rect>
 <rect x="34.65" y="212.00" width="8.65" height="2.00" rx="1.5" fill="#161b22" fill-opacity="1.00"><title>0 contributions</title></rect>
@@ -71,7 +71,7 @@ text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial
 <rect x="514.08" y="206.37" width="8.65" height="7.63" rx="1.5" fill="#3fb950" fill-opacity="0.50"><title>11 contributions</title></rect>
 <rect x="524.73" y="209.84" width="8.65" height="4.16" rx="1.5" fill="#3fb950" fill-opacity="0.43"><title>6 contributions</title></rect>
 <rect x="535.38" y="211.92" width="8.65" height="2.08" rx="1.5" fill="#3fb950" fill-opacity="0.39"><title>3 contributions</title></rect>
-<rect x="546.04" y="209.14" width="8.65" height="4.86" rx="1.5" fill="#3fb950" fill-opacity="0.44"><title>7 contributions</title></rect>
-<rect x="556.69" y="211.92" width="8.65" height="2.08" rx="1.5" fill="#3fb950" fill-opacity="0.39"><title>3 contributions</title></rect>
-<rect x="567.35" y="212.00" width="8.65" height="2.00" rx="1.5" fill="#161b22" fill-opacity="1.00"><title>0 contributions</title></rect>
+<rect x="546.04" y="208.45" width="8.65" height="5.55" rx="1.5" fill="#3fb950" fill-opacity="0.46"><title>8 contributions</title></rect>
+<rect x="556.69" y="209.14" width="8.65" height="4.86" rx="1.5" fill="#3fb950" fill-opacity="0.44"><title>7 contributions</title></rect>
+<rect x="567.35" y="211.92" width="8.65" height="2.08" rx="1.5" fill="#3fb950" fill-opacity="0.39"><title>3 contributions</title></rect>
 </svg>
