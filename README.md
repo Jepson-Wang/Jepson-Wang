@@ -1,7 +1,11 @@
-<h1 align="center">Hi, I'm Jarwood 👋</h1>
+<h1 align="center">Hi, I'm Jepson 👋</h1>
 
 <p align="center">
   <b>Backend &amp; AI-Agent Engineer</b> &nbsp;·&nbsp; I build agent runtimes that survive <code>kill -9</code>.
+</p>
+
+<p align="center">
+  📝 Blog: <a href="http://jepsonblog.vip/">Jepson</a> &nbsp;·&nbsp; 📧 <a href="mailto:jarwood369@gmail.com">jarwood369@gmail.com</a>
 </p>
 
 <p align="center">
@@ -24,7 +28,7 @@
 
 - 🎓 3rd-year CS undergrad, writing **Python** daily and **Go** for services.
 - 🔧 Building **Mini-Agent** — a crash-recoverable AI agent runtime: a Python execution engine and a Go control plane talking over gRPC streaming.
-- 🧠 What I care about: idempotency, crash recovery, state machines, backpressure &amp; cancellation — the boring parts that keep agents correct.
+- 🧠 What I care about: idempotency, crash recovery, state machines, concurrency &amp; caching — goroutines and asyncio, Redis, LRU + TTL caches.
 - 🌱 Contributing to open-source agent infrastructure.
 - 📫 Open to **backend / AI-agent internships**.
 
