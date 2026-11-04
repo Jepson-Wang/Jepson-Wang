@@ -5,7 +5,9 @@
 </p>
 
 <p align="center">
-  📝 Blog: <a href="http://jepsonblog.vip/">Jepson</a> &nbsp;·&nbsp; 📧 <a href="mailto:jarwood369@gmail.com">jarwood369@gmail.com</a> &nbsp;·&nbsp; 𝕏 <a href="https://x.com/Jepsonr339">@Jepsonr339</a>
+  <a href="http://jepsonblog.vip/"><img src="https://img.shields.io/badge/-Blog%20%C2%B7%20Jepson-black?labelColor=black&logo=rss&logoColor=white&style=flat-square" alt="Blog"/></a>
+  <a href="mailto:jarwood369@gmail.com"><img src="https://img.shields.io/badge/-jarwood369@gmail.com-black?labelColor=black&logo=gmail&logoColor=white&style=flat-square" alt="email"/></a>
+  <a href="https://x.com/Jepsonr339"><img src="https://img.shields.io/badge/-@Jepsonr339-black?labelColor=black&logo=x&logoColor=white&style=flat-square" alt="X"/></a>
 </p>
 
 <p align="center">
