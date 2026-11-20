@@ -74,7 +74,7 @@ flowchart LR
 ### 🌍 Latest Pull Requests
 
 <!-- OSS:START -->
-- 🟡 **NousResearch/hermes-agent** ★ 264.6k — [fix(compression): a trace-only summary fails instead of becoming the checkpoint](https://github.com/NousResearch/hermes-agent/pull/139989) (#139989) · _in review_
+- 🟡 **NousResearch/hermes-agent** ★ 264.8k — [fix(compression): a trace-only summary fails instead of becoming the checkpoint](https://github.com/NousResearch/hermes-agent/pull/139989) (#139989) · _in review_
 - 🟡 **ethanhq/cc-fleet** ★ 193 — [feat(subagent): prepare the codex engine's CODEX_HOME](https://github.com/ethanhq/cc-fleet/pull/149) (#149) · _in review_
 - 🟡 **ethanhq/cc-fleet** ★ 193 — [refactor(subagent): put the claude worker behind an Engine interface; resolve the codex binary](https://github.com/ethanhq/cc-fleet/pull/146) (#146) · _in review_
 - 🟣 **ethanhq/cc-fleet** ★ 193 — [fix(codexproxy): match a worker's proxy port exactly, not as a substring](https://github.com/ethanhq/cc-fleet/pull/145) (#145) · merged
